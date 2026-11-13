@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Manrope:wght@300;400;500;600&display=swap');
+:root{
+  --bg:#0B0906; --bg2:#100C08; --panel:#16110B; --panel2:#1C150D;
+  --gold:#C9A56C; --gold-hi:#E8CD98; --bronze:#A0703F; --copper:#7C4F2A;
+  --cream:#F2E9D8; --text:#D8CCB6; --muted:#9A8C78; --dim:#5A5044;
+  --line:rgba(201,165,108,.18); --line2:rgba(201,165,108,.42);
+  --serif:'Cormorant Garamond', Georgia, serif; --sans:'Manrope', Helvetica, Arial, sans-serif;
+  --metal:linear-gradient(100deg,#8A5A2E 0%,#C9A56C 28%,#F1DBAA 46%,#B88A52 64%,#7C4F2A 100%);
+}
+.metal{background:var(--metal);-webkit-background-clip:text;background-clip:text;color:transparent}
+html{font-variant-numeric:lining-nums;font-feature-settings:"lnum" 1}
